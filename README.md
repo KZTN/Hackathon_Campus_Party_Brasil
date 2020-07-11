@@ -1,4 +1,8 @@
 
+## 💻 Projeto
+
+Point Woman é um projeto que visa garantir a segurança de mulheres de frequentarem lugares mais seguros que possam refletir no seu bem estar e tranquilidade.
+
 ## 🔌 Base url 
 
 Todas chamadas devem usar a url base:
