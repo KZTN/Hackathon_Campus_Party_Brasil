@@ -1,5 +1,54 @@
 
 
+## Começando...
+Essas instruções fornecerão uma cópia do projeto em execução na sua máquina local para fins de desenvolvimento e teste.
+
+### Pré-requisitos
+O que você precisa para instalar o software:
+
+```
+node v12.x
+yarn 1.22.4
+git
+```
+> Para uma melhor experiência no ambiente de testes com o servidor API REST, recomenda-se o uso do [insomnia](https://insomnia.rest/)
+
+### Instalando o projeto 🚀
+Clonando o projeto:
+
+```
+git clone https://github.com/KZTN/Hackathon_Campus_Party_Brasil.git
+```
+
+Navegando até a pasta do projeto:
+
+```
+cd Hackathon_Campus_Party_Brasil 
+```
+
+Renomeie o arquivo `.env.example` para `.env` na raíz do projeto e adicione as seguintes linhas:
+
+```bash
+REACT_APP_GOOGLE_KEY=YOUR_GOOGLE_API_HERE
+REACT_APP_API_URL=https://point-woman.herokuapp.com/
+```
+> Para obter sua própria API da google, acesse: https://console.cloud.google.com/
+
+Baixando as dependências do projeto:
+
+```bash
+yarn install
+```
+
+Rodando o projeto:
+
+```bash
+yarn start
+```
+
+
+Visite http://localhost:3000 com o seu navegador para ver o resultado. 🎉
+
 ## 📄 Documentação 
 <ul>
    <li><a href="https://documenter.getpostman.com/view/5898966/T17M6REY" target="_blank">Versão unificada</a></li>
