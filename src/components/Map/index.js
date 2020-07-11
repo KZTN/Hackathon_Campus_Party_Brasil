@@ -5,7 +5,7 @@ import "./styles.scss";
 import CardMap from "../CardMap";
 import dataset from "../../data/dataset.json";
 
-export default function Map({history}) {
+export default function Map({ history }) {
   const [elem, setElem] = useState({ lat: -22.858608, lng: -47.0505616 });
   const [me, setMe] = useState({});
   const [PointIsSelected, setPointIsSelected] = useState(false);
@@ -49,7 +49,7 @@ export default function Map({history}) {
   return (
     <>
       <GoogleMap
-      onClick={() => setPointIsSelected(false)}
+        onClick={() => setPointIsSelected(false)}
         streetViewControl={false}
         defaultCenter={{ lat: elem.lat, lng: elem.lng }}
         zoom={16}
