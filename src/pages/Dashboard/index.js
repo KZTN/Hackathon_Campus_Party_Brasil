@@ -1,10 +1,18 @@
-import React from "react";
+import React, {useEffect} from "react";
+import {useHistory} from 'react-router-dom'
 import { withScriptjs, withGoogleMap } from "react-google-maps";
 import MapContainer from "../../components/Map";
 import "./styles.scss";
 import Header from '../../components/Header'
 export default function Dashboard() {
+  const history = useHistory();
   const MapWrapped = withScriptjs(withGoogleMap(MapContainer));
+
+  useEffect(() => {
+    if(!localStorage.getItem("id")) {
+      history.push("/");
+    }
+  });
 
   return (
     <>
