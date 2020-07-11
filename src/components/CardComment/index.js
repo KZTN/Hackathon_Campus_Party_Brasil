@@ -2,7 +2,8 @@ import React from "react";
 import { FaUser } from "react-icons/fa";
 import "./styles.scss";
 
-function CardComment({ author, comment, rate }) {
+function CardComment({ author, comment, rating }) {
+  console.log(rating);
   return (
     <section id="cardcomment">
       <div className="left-content">
@@ -11,7 +12,7 @@ function CardComment({ author, comment, rate }) {
       <div className="right-content">
         <strong>{author? author: "Anônimo"}</strong>
         <p>{comment}</p>
-        <span>Nota: {rate}</span>
+        <span>Nota: {rating}</span>
       </div>
     </section>
   );

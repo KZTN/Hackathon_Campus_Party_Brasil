@@ -11,7 +11,7 @@
       {
         "author": "Jéssica",
         "comment": "Lugar agradável e seguro",
-        "rate": 4
+        "rating": 4
       }
     ]
   },
@@ -27,7 +27,7 @@
       {
         "author": "Jéssica",
         "comment": "Lugar agradável e seguro",
-        "rate": 4
+        "rating": 4
       }
     ]
   },
@@ -36,14 +36,14 @@
     "rating": 4.5,
     "address": "R. das Hortências, 548",
     "region": "Campinas - SP",
-    "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipOm_LJnDo7VfcDOO1bsh7rE1D74ELFXqAmX-wpU=w408-h306-k-no",
+    "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipNHQq8-hg9Ho5cVeJfjr_ehf2sOUPB_rqfTq0SQ=w426-h240-k-no",
     "lat": -22.859009,
     "lng": -47.0491577,
     "comments": [
       {
         "author": "Jéssica",
         "comment": "Lugar agradável e seguro",
-        "rate": 4
+        "rating": 4
       }
     ]
   },
@@ -59,7 +59,7 @@
       {
         "author": "Jéssica",
         "comment": "Lugar agradável e seguro",
-        "rate": 4
+        "rating": 4
       }
     ]
   }

@@ -42,7 +42,7 @@ export default function Establishment(props) {
           {Comments.map((comment) => (
             <CardComment
               author={comment.author}
-              rate={comment.rate}
+              rating={comment.rating}
               comment={comment.comment}
             />
           ))}

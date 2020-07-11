@@ -18,7 +18,10 @@ textarea {
   max-width: 650px;
   margin: 0 auto;
 }
-
+html {
+  -webkit-font-smoothing: antialiased !important;
+  overflow-x: hidden;
+}
 html,
 body,
 #root {
