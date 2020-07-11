@@ -49,6 +49,7 @@ export default function Map({history}) {
   return (
     <>
       <GoogleMap
+      onClick={() => setPointIsSelected(false)}
         streetViewControl={false}
         defaultCenter={{ lat: elem.lat, lng: elem.lng }}
         zoom={16}
