@@ -1,0 +1,88 @@
+section#establishment {
+  background: #fff;
+  padding: 1.5rem;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+section#establishment header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+section#establishment header button {
+  background: #efeaea;
+  border: 0;
+  justify-content: center;
+  padding: 0.3rem 0.2rem 0.2rem 0.2rem;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  margin-right: auto;
+}
+
+section#establishment header h1 {
+  margin: 0 auto;
+  color: #ff63b1;
+  font-size: 32px;
+}
+
+section#establishment .comments {
+  margin: 30px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+section#establishment .comments header h2 {
+  text-align: left;
+  color: #ff63b1;
+  font-size: 32px;
+}
+
+section#establishment .make-a-comment header h2 {
+  text-align: left;
+  color: #ff63b1;
+  font-size: 32px;
+}
+
+section#establishment .make-a-comment .comment form {
+  font-weight: 500;
+  border: 0;
+  font-size: 18px;
+  display: flex;
+  background: #efeaea;
+  padding: 1rem;
+  border-radius: 18px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+
+  flex-direction: column;
+  & * {
+    margin-bottom: 5px;
+  }
+}
+
+section#establishment .make-a-comment .comment form textarea {
+  width: 100%;
+  height: 150px;
+  resize: none;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+section#establishment .make-a-comment .comment form button {
+  border: 0;
+  background: #272c52;
+  color: #ff63b1;
+  border-radius: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  padding: 1rem;
+}
+
+section#establishment .make-a-comment .comment form input {
+  width: 50px;
+}

@@ -1,0 +1,64 @@
+section#login {
+  background: #fff;
+  padding: 1.5rem;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+section#login img {
+  width: 224px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+section#login form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 100%;
+  & * {
+    margin-bottom: 10px;
+  }
+}
+
+section#login form input {
+  font-weight: 500;
+  border: 0;
+  background: rgba(255, 255, 255, 09);
+  border-radius: 18px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  padding: 1rem;
+  font-size: 18px;
+}
+
+section#login form button[type="submit"] {
+  border: 0;
+  background: #272c52;
+  color: #ff63b1;
+  border-radius: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  padding: 1rem;
+  font-size: 18px;
+}
+
+section#login button {
+  margin-top: 20px;
+  width: 100%;
+  border: 0;
+  color: #272c52;
+  background: #ff63b1;
+  border-radius: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  padding: 1rem;
+  font-size: 18px;
+}
+
+section#login span {
+  margin-top: 15px;
+  text-align: center;
+}

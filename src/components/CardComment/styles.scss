@@ -1,0 +1,15 @@
+section#cardcomment {
+  background: #efeaea;
+  display: flex;
+  flex-direction: row;
+  padding: 0.5rem;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  align-items: center;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+section#cardcomment .right-content {
+  margin-left: 15px;
+}

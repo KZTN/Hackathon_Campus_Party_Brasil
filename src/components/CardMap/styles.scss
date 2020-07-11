@@ -1,0 +1,32 @@
+section#cardmap {
+  width: 350px;
+  height: 120px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  padding: 0.2rem;
+  position: fixed;
+  background: #fff;
+  top: 80%;
+  left: 5%;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+section#cardmap .left-content img {
+  height: 100%;
+  width: 110px;
+  border-radius: 12px;
+}
+
+section#cardmap .right-content {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+section#cardmap .right-content .hearts {
+  margin-top: auto;
+  & * {
+    margin-right: 5px;
+  }
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Condomínio Petit Village de Provence",
+    "rating": 4.3,
+    "address": "R. Émerson José Moreira, 1455",
+    "region": "Campinas - SP",
+    "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipMKsnga1o8rH0YQMyfY7A7_V5GBpJ-POoV6jYHl=w427-h240-k-no",
+    "lat": -22.8585961,
+    "lng": -47.0539112,
+    "comments": [
+      {
+        "author": "Jéssica",
+        "comment": "Lugar agradável e seguro",
+        "rate": 4
+      }
+    ]
+  },
+  {
+    "name": "Salão Renovve",
+    "rating": 4.6,
+    "address": "R. das Hortências, 548",
+    "region": "Campinas - SP",
+    "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipOm_LJnDo7VfcDOO1bsh7rE1D74ELFXqAmX-wpU=w408-h306-k-no",
+    "lat": -22.85903,
+    "lng": -47.0546838,
+    "comments": [
+      {
+        "author": "Jéssica",
+        "comment": "Lugar agradável e seguro",
+        "rate": 4
+      }
+    ]
+  },
+  {
+    "name": "Pão da Primavera",
+    "rating": 4.5,
+    "address": "R. das Hortências, 548",
+    "region": "Campinas - SP",
+    "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipOm_LJnDo7VfcDOO1bsh7rE1D74ELFXqAmX-wpU=w408-h306-k-no",
+    "lat": -22.859009,
+    "lng": -47.0491577,
+    "comments": [
+      {
+        "author": "Jéssica",
+        "comment": "Lugar agradável e seguro",
+        "rate": 4
+      }
+    ]
+  },
+  {
+    "name": "PRO-VIDA Campinas",
+    "rating": 4.5,
+    "address": "Rua das Margaridas, 760",
+    "region": "Campinas - SP",
+    "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipPuK9aynbkKFwcyQJy9uSS3ghLigFiLkFSTJP91=w408-h306-k-no",
+    "lat": -22.8578504,
+    "lng": -47.0513465,
+    "comments": [
+      {
+        "author": "Jéssica",
+        "comment": "Lugar agradável e seguro",
+        "rate": 4
+      }
+    ]
+  }
+]
