@@ -3,7 +3,6 @@ import { FaUser } from "react-icons/fa";
 import "./styles.scss";
 
 function CardComment({ author, comment, rating }) {
-  console.log(rating);
   return (
     <section id="cardcomment">
       <div className="left-content">
