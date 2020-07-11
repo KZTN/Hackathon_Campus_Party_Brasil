@@ -7,11 +7,30 @@ import "./styles.scss";
 
 export default function Establishment(props) {
   const [Comments, setComments] = useState(props.location.state.comments);
+  const [Anonym, setAnonym] = useState(false);
   const [Comment, setComment] = useState("");
   const [Rating, setRating] = useState(0);
   function handleSubmit(e) {
     e.preventDefault();
-    setComments([...Comments, { comment: Comment, rating: Rating }]);
+    if (Anonym) {
+      setComments([
+        ...Comments,
+        {
+          comment: Comment,
+          rating: Rating,
+          author: "Anônimo",
+        },
+      ]);
+    } else {
+      setComments([
+        ...Comments,
+        {
+          comment: Comment,
+          rating: Rating,
+          author: localStorage.getItem("name"),
+        },
+      ]);
+    }
   }
   return (
     <section id="establishment">
@@ -64,19 +83,31 @@ export default function Establishment(props) {
               onChange={(e) => setComment(e.target.value)}
               required
             />
-            <div>
-              <label htmlFor="rate">Nota: </label>
-              <input
-                type="number"
-                id="rate"
-                name="rate"
-                placeholder="0"
-                min="1"
-                max="5"
-                value={Rating}
-                onChange={(e) => setRating(e.target.value)}
-                required
-              />
+            <div className="wrapper">
+              <div>
+                <label htmlFor="rate">Nota: </label>
+                <input
+                  type="number"
+                  id="rate"
+                  name="rate"
+                  placeholder="0"
+                  min="1"
+                  max="5"
+                  value={Rating}
+                  onChange={(e) => setRating(e.target.value)}
+                  required
+                />
+              </div>
+              <div>
+                <label htmlFor="anonym">Manter anonimato:</label>
+                <input
+                  type="checkbox"
+                  id="anonym"
+                  name="anonym"
+                  value={Anonym}
+                  onChange={(e) => setAnonym(e.target.value)}
+                />
+              </div>
             </div>
             <button type="submit">Enviar</button>
           </form>
